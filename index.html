@@ -16,24 +16,15 @@
     <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container" role="contentinfo">
       <div class="image-container">
         <img
           src="images/image-equilibrium.jpg"
           alt="Equilibrium picture"
-          height="300px"
-          width="300px"
+          height="300"
+          width="300"
           class="main-pic"
         />
 
@@ -75,15 +66,20 @@
           alt="avatar image"
           class="profile-pic"
         />
-        <h3>Creation of <span class="hover-mode">Jules Wyvern</span></h3>
+        <h3>Creation of <em class="hover-mode">Jules Wyvern</em></h3>
       </footer>
     </div>
 
-    <div class="attribution">
+    <div class="attribution" role="doc-appendix">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="link-name"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Dina Rocio</a>.
+      >
+      Coded by
+      <a href="https://github.com/DinaRocio" class="link-name">Dina Rocio</a>
     </div>
   </body>
 </html>

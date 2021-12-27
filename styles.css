@@ -65,6 +65,7 @@ h3 {
 .hover-mode {
   color: var(--clr-white);
   cursor: pointer;
+  font-style: normal;
 }
 
 h1:hover {
@@ -210,4 +211,9 @@ footer {
   width: 100%;
   justify-content: center;
   gap: 15px;
+  font-size: 0.6rem;
+}
+
+.attribution a {
+  color: var(--clr-cyan);
 }
